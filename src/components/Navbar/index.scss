@@ -1,0 +1,29 @@
+#nav {
+  background-color: #2563eb;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+    &:hover {
+      color: white;
+      background-color: #3b82f6;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav-menu {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.btn {
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  margin-top: auto;
+  align-self: flex-end;
+  padding: 12px 20px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0f172a;
+  }
+}
+
+.btn-full {
+  width: 100%;
+}
